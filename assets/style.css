@@ -48,9 +48,23 @@ h1, h2, h3, h4{
     padding: 0px 15px;
 }
 
+/* Portfolio */
+.card-body{
+    position: relative;
+}
+.card-title{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
 /* Footer */
 #footer{
     background-color: #777777;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
+    z-index: 3;
 }
