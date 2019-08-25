@@ -1,0 +1,56 @@
+body{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    background-image: url("../images/gravel.png");
+}
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.container{
+    background-color: #ffffff;
+    color: #777777;
+    width: 100%;
+}
+/* Header */
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-brand{
+    background-color: #4aaaa5;
+    font-size: 24px;
+}
+.nav-link {
+    color: #777777 !important;
+    text-decoration: none !important;
+}
+.nav-link:hover{
+    color: red !important;
+    text-decoration: none;
+}
+
+/* About Me */
+.img-fluid{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/* Contact */
+.form{
+    width: 100% !important;
+}
+.form-control{
+    width: 100%;
+}
+.contact-form{
+    padding: 0px 15px;
+}
+
+/* Footer */
+#footer{
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+}

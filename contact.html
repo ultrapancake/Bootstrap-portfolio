@@ -14,7 +14,7 @@
     <Header>
         <nav class="navbar navbar-dark justify-content-between flex-nowrap flex-row">
             <div class="container">
-                <a href="/" class="navbar-brand float-left col-sm-12 col-md-4 col-lg-3">Glen Larsen</a>
+                <a href="#" class="navbar-brand float-left col-sm-12 col-md-4 col-lg-3">Glen Larsen</a>
                 <ul class="nav navbar-nav flex-row float-right">
                     <li class="nav-item"><a class="nav-link pr-4 active" href="index.html">About</a></li>
                     <li class="nav-item"><a class="nav-link pr-4" href="portfolio.html">Portfolio</a></li>
@@ -23,10 +23,64 @@
             </div>
         </nav>
     </Header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h2>Contact</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row contact-form">
+            <form>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <label for="Input1Name">
+                                Name
+                            </label>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <label for="Input2EmailAddress">
+                                Email Address
+                            </label>
+                            <input type="email" name="email" class="form-control" placeholder="name@example.com"
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <label for="Message">
+                                Message
+                            </label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                                placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <input type="submit" value="SEND MESSAGE" class="btn btn-info">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
-    <footer id="footer" class="py-2 text-white-50 fixed-bottom mt-n3">
-        <div class="container text-center">
-            <p>Copyright &copy;</p>
+    <footer id="footer" class="fixed-bottom">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                <p class="text-center text-bottom">Copyright &copy;</p>
+            </div>
         </div>
     </footer>
 </body>
