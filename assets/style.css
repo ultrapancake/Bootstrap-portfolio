@@ -2,7 +2,7 @@ body{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 50px;
-    background-image: url("../images/gravel.png");
+    background-image: url("images/gravel.png");
 }
 h1, h2, h3, h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
